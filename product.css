@@ -2,12 +2,19 @@
   max-width: 1200px;
 }
 
+body{
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
 /*
  * Custom translucent site header
  */
-
+.nav-masthead{
+  float: right;
+}
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+ 
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
@@ -139,7 +146,6 @@ border-radius: 19px 19px 19px 19px;
   background-color: white;
   width: 95%;
   height: 490px; 
- 
   margin:auto;
   padding-top: 2%;
 }
